@@ -1,0 +1,825 @@
+.top-bar {
+  background-color: #0a3d91; /* dark blue */
+  color: #fff;
+  font-size: 14px;
+}
+
+.top-bar a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.top-bar .social-icons a {
+  margin-left: 12px;
+  font-size: 16px;
+}
+
+.navbar-brand img {
+  height: 80px; /* Adjust logo size */
+}
+
+.navbar-nav {
+  display: flex;
+  gap: 30px;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000 !important;
+}
+
+.button button {
+  background-color: #0a3d91;
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 6px;
+  padding: 10px 30px;
+}
+
+.button button:hover {
+  background-color: rgb(87, 83, 83);
+}
+
+.hom_btn {
+  background-color: #0a3d91;
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 6px;
+  padding: 10px 30px;
+}
+
+.hom_btn:hover {
+  background-color: rgb(87, 83, 83);
+}
+
+.button2 button {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #0a3d91;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 6px;
+  padding: 10px 30px;
+}
+
+.button2 button:hover {
+  background-color: #0a3d91;
+}
+
+.hm {
+  border-radius: 0px 0px 10px 10px;
+}
+
+.services .service1 {
+  background-image: url('images/service1.png');
+}
+
+.navbar-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url('images/banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: inherit;
+}
+
+.banner-text h2 {
+  color: #fff !important;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 50px;
+  line-height: 63px;
+  text-align: center;
+}
+
+.banner-text {
+  margin-top: 115px;
+  margin-bottom: 99px;
+}
+
+.navbar-bg1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url('image/About_banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-text1 {
+  padding-block-end: 6rem;
+}
+
+.banner-text1 h2 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 50px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.banner-text1 h2 i {
+  color: #08399f;
+}
+
+.banner-text1 p {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.banner-text1 {
+  margin-top: 115px;
+  margin-bottom: 99px;
+}
+
+.discdidiover h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  color: #333333;
+  margin-bottom: 5px;
+}
+
+.mnm h3 {
+  margin-top: 5px;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 100%;
+  text-align: center;
+}
+
+.hero-bg {
+  background: linear-gradient(#a9b7d2c2), url('images/banner2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: inherit;
+}
+
+.hero-bg .top {
+  margin-top: 50px;
+}
+
+.join-team {
+  background: linear-gradient(#000000c4), url('images/Rectangle\ 10.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: inherit;
+}
+
+.join-team h3 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 60px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: white;
+}
+
+.join-team p {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0%;
+  color: white;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 22px;
+}
+
+.join-team-content {
+  padding-block: 109px;
+}
+
+.testimonials .testimonials-text h3 {
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+}
+
+.testimonials .testimonials-text h2 {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.news-text h2 {
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+}
+
+.news-text h3 {
+  font-weight: 600;
+  font-size: 35px;
+}
+
+/* outer card */
+.card-blog {
+  max-width: 520px; /* change as needed */
+  border-radius: 12px;
+  overflow: hidden; /* ensures rounded corners hide the image edges */
+  box-shadow: 0 8px 22px rgba(20, 30, 50, 0.07);
+}
+
+/* image area */
+.card-blog .card-img-top {
+  width: 100%;
+  height: 240px; /* adjust height to match your design */
+  object-fit: cover; /* crop the image nicely */
+  display: block;
+}
+
+/* date badge (bottom-left overlay) */
+.date-badge {
+  position: absolute;
+  left: 16px;
+  bottom: 16px;
+  width: 82px;
+  height: 82px;
+  border-radius: 10px;
+  background: #0a3d91; /* blue color */
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 18px rgba(10, 20, 50, 0.18);
+  z-index: 5;
+  text-align: center;
+  padding: 6px;
+}
+.date-badge .day {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1;
+}
+.date-badge .month {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+/* card body spacing */
+.card-blog .card-body {
+  padding: 1rem;
+}
+.card-blog .card-title {
+  margin-bottom: 0.25rem;
+  font-weight: 700;
+}
+.card-blog .card-text {
+  color: #6b7280;
+  font-size: 0.95rem;
+}
+
+.pic {
+  position: relative;
+  background-color: #08399f;
+  border-radius: 5px;
+  padding: 20px;
+  color: white;
+  height: 250px;
+}
+
+.pic_nav {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.pic-icons {
+  display: flex;
+  gap: 2px;
+  color: #ff8e1d;
+  margin-bottom: 20px;
+  font-size: 10px;
+}
+
+.pic_nav-id {
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+}
+
+.pic_nav-id span {
+  font-weight: 300;
+  font-style: Light;
+  font-size: 14px;
+}
+
+.home_blog-left-d_t2 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #00000080;
+}
+
+.home_blog-left-d_t2 span {
+  margin-right: 2px;
+}
+
+.home_blog-left-d_and_t2 {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.home_blog-left-d_t2 {
+  display: flex;
+  gap: 3px;
+  color: black;
+  align-items: center;
+  justify-content: center;
+}
+
+.home_blog-left-d_t2 .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.home_blog-left-d_t2 span {
+  color: #08399f;
+}
+
+.home_blog-left-d_t2 i {
+  font-size: 15px;
+}
+
+.txt h3 {
+  margin-top: 13px;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+}
+
+.txt p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.txt a {
+  text-decoration: none;
+  color: #033b4a;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+}
+
+.trust-bg {
+  background-color: #08399f;
+  padding-block: 3rem;
+  border-radius: 5px;
+}
+
+.trust-head {
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.trust-car {
+  display: flex;
+  gap: 40px;
+}
+
+.why_choose_left-progress-details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.why_choose_left-progress-detailsss {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.why_choose_left-progress {
+  margin-bottom: 10px;
+}
+
+.why_choose_left-progress-file .progress-bar {
+  background-color: #08399f;
+  height: 10px;
+}
+
+.why_choose_left-progress-file .progress {
+  height: 10px;
+  background-color: #d9d9d9;
+}
+
+.level {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.core-bg {
+  background-color: #08399f;
+  color: white;
+}
+
+.core-card {
+  margin-block: 50px;
+  background-color: #fff;
+  padding: 20px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertical center */
+  text-align: left; /* keep text aligned left */
+}
+
+.team-card {
+  position: relative;
+  text-align: center;
+}
+
+.team-img {
+  position: relative;
+  z-index: 2;
+  margin-bottom: -40px; /* pull image into blue box */
+}
+
+.team-img img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.team-info {
+  background-color: #0d47a1;
+  padding: 60px 20px 20px; /* extra top padding for overlap */
+  border-radius: 0 0 10px 10px;
+}
+.contact-box {
+  display: flex;
+  align-items: center;
+  color: black;
+  gap: 5px;
+}
+
+.contact-box .icon {
+  /* padding: 19px 20px; */
+  height: 70px;
+  width: 70px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #08399f;
+  font-size: 22px; /* make the icon bigger */
+  margin-right: 12px; /* spacing between icon & text */
+}
+
+.contact-box .text span {
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+}
+.contact-box .text {
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 15px; /* text size */
+  line-height: 1; /* prevents pushing upward */
+}
+
+.form {
+  background-color: #08399f;
+  padding: 71px 55px;
+  color: white;
+  border-radius: 5px;
+}
+
+.hi h6 {
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+}
+
+.hi h3 {
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+}
+
+.hi h2 {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.hi span i {
+  color: #08399f;
+}
+
+/* Custom CSS to perfect the image and feature spacing */
+.object-fit-cover {
+  object-fit: cover;
+}
+
+/* Ensure the image container takes up full vertical space */
+.h-100 {
+  min-height: 450px; /* Set a minimum height so the content on the right is tall enough on desktop */
+}
+
+/* Custom styling for the header icon and text to match the image's specific look */
+.d-flex.align-items-center:first-child .text-uppercase {
+  background-color: white;
+  color: #003a8d; /* Blue text */
+  padding: 2px 8px;
+  border-radius: 20px;
+  margin-right: 10px !important;
+}
+
+/* Styling for the small text items */
+.small-text li {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Custom styling for the list icons (to match the checkmark/car icons) */
+.feature-item .d-flex i {
+  /* Using a checkmark icon to better represent a feature point */
+  content: '\F62C'; /* Placeholder for a good Bootstrap Icon */
+  font-family: 'Bootstrap Icons';
+}
+
+.form5 {
+  padding: 10px;
+  border: 1.5px solid #08399f;
+  outline: none;
+}
+
+.footer-custom {
+  /* Set the background color to match your likely corporate color */
+  background-color: white;
+  color: black; /* Ensure all default text is white */
+  margin-top: 55px;
+}
+
+.footer-heading {
+  color: #08399f;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.footer-links a,
+.contact-info span {
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+  line-height: 2.2; /* Spacing between links */
+  display: block;
+  position: relative;
+  padding-left: 15px; /* Space for the '+' bullet */
+}
+
+/* Custom bullet point styling using a pseudo-element */
+.footer-links a:before {
+  content: '+';
+  color: #08399f; /* A bright green color for the bullet (adjust as needed) */
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+.footer-links a:hover {
+  color: #003a8d; /* Highlight on hover */
+}
+
+/* Social Icon Styling */
+.social-icon {
+  display: inline-flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  height: 38px;
+  background-color: #003a8d;
+  color: white;
+  border-radius: 4px; /* Square/slightly rounded boxes */
+  font-size: 1.1rem;
+  transition: background-color 0.3s;
+}
+
+/* Contact Icons (Telephone, Email, Location) */
+.contact-icon {
+  color: #08399f; /* Bright green color for the icons */
+  font-size: 1.3rem;
+}
+
+.value-proposition-card {
+  border-radius: 5px;
+  background-color: #ffffff;
+  max-width: 700px;
+  border: 1px solid #d9d9d9;
+}
+
+/* Custom horizontal line style */
+.value-divider {
+  border: 0;
+  height: 1px;
+  background: #003a8d; /* Blue color */
+  opacity: 0.5;
+  margin-top: -5px; /* Adjust spacing */
+}
+
+/* Blue star icon styling */
+.star-icon {
+  /* Use your main blue color */
+  color: #003a8d;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+/* Ensure list items wrap nicely and align text */
+.value-list p {
+  line-height: 1.5;
+}
+
+/* 1. Overall Section Background Color */
+.team-section {
+  /* The soft blue background color from the image */
+  background-color: #adb9c9;
+}
+
+/* 3. Team Card Styling (The container for the photo and text block) */
+.team-card {
+  /* Ensures there is no white background showing around the photo/info block */
+  background-color: transparent;
+  /* The overflow: hidden is essential to prevent vertical scrollbars if margins get tricky */
+  overflow: hidden;
+  /* Ensures elements stack correctly */
+  display: flex;
+  flex-direction: column;
+}
+
+/* 4. Image Styling */
+.team-photo {
+  /* The photo should fully stretch the width of the column */
+  width: 100%;
+  /* Key fix: Removes any default spacing below the image (which is common for inline elements) */
+  display: block;
+}
+
+/* 5. Blue Text Block Styling (The dark blue rectangle) */
+.team-info {
+  /* The dark blue color (Your corporate color) */
+  background-color: #003a8d;
+  color: white;
+  /* Sets a fixed height for the blue block to ensure uniformity (adjust padding as needed) */
+  min-height: 85px;
+  padding-top: 20px !important;
+  padding-bottom: 15px !important;
+  /* Ensures the text block sticks right to the bottom of the image */
+  margin-top: 0;
+}
+
+.team-info h4 {
+  font-weight: 600;
+}
+
+.pricing-card {
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  padding: 24px;
+  background: #fff;
+  height: 100%;
+}
+.pricing-card h5 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.price-main {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000;
+}
+.price-main span {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #555;
+}
+.btn-primary-custom {
+  background-color: #003a8d;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-weight: 500;
+  margin: 1rem 0;
+  color: white;
+}
+/* .btn-primary-custom:hover {
+  background-color: #00285a;
+  color: white !important;
+} */
+.plan-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.plan-option i {
+  color: #003a8d;
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+.badge-custom {
+  background-color: #e0e6f5;
+  color: #003a8d;
+  font-size: 0.8rem;
+  border-radius: 6px;
+  padding: 4px 8px;
+  margin-left: 10px;
+}
+
+
+/* Define colors */
+:root {
+    --overlay-color: rgba(0, 58, 141, 0.85); /* Semi-transparent blue */
+    --text-color: white;
+    --transition-speed: 0.3s;
+}
+
+/* ------------------------------------------- */
+/* 1. CONTAINER SETUP */
+/* ------------------------------------------- */
+.image-card {
+    /* Set position relative for absolute positioning of the overlay */
+    position: relative;
+    /* Determines the size of your card (adjust these values) */
+    /* width: 440px;
+    height: 385px;  */
+    overflow: hidden; /* Ensures nothing spills out of the card boundaries */
+    border-radius: 8px; 
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); */
+    cursor: pointer;
+}
+
+/* Make the image fill the container and look good */
+.image-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform var(--transition-speed) ease;
+}
+
+/* ------------------------------------------- */
+/* 2. OVERLAY AND TEXT SETUP (Default Hidden) */
+/* ------------------------------------------- */
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000099;
+    color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* Key CSS to hide the overlay by default: */
+    opacity: 0; /* Starts completely transparent */
+    transform: translateY(100%); /* Starts off-screen (from the bottom) */
+    transition: opacity var(--transition-speed) ease, transform var(--transition-speed) ease;
+}
+
+.image-overlay h4 {
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+}
+
+.image-overlay p {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+/* ------------------------------------------- */
+/* 3. HOVER STATE (Reveals Overlay) */
+/* ------------------------------------------- */
+.image-card:hover .image-overlay {
+    opacity: 1; /* Make it visible */
+    transform: translateY(0); /* Move it to its final position */
+}
+
+.image-card:hover img {
+    /* Optional: slight zoom/scale effect on the image when hovered */
+    transform: scale(1.05);
+}
