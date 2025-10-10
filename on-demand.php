@@ -235,9 +235,8 @@
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                     data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body text-secondary">
-                                        We offer a fleet of well-maintained executive cars, including luxury sedans and
-                                        SUVs, designed to deliver comfort, style, and reliability.
+                                    <div class="accordion-body text-secondary">                                        
+                                        Yes, you can. Ridewell offers flexible booking options — hourly, daily, weekly, or monthly. If you need a driver for a short period to attend meetings, run errands, or handle temporary assignments, we’ll assign a professional driver that suits your schedule and location.
                                     </div>
                                 </div>
                             </div>

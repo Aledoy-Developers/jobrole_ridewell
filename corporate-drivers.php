@@ -229,7 +229,7 @@
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
                 <div class="accordion-body text-secondary">
-                 Yes, you can. Ridewell offers flexible booking options — hourly, daily, weekly, or monthly. If you need a driver for a short period to attend meetings, run errands, or handle temporary assignments, we’ll assign a professional driver that suits your schedule and location.
+                  Yes, you can. Ridewell offers flexible booking options — hourly, daily, weekly, or monthly. If you need a driver for a short period to attend meetings, run errands, or handle temporary assignments, we’ll assign a professional driver that suits your schedule and location.
                 </div>
               </div>
             </div>

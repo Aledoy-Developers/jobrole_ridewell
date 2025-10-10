@@ -229,7 +229,7 @@
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
                 <div class="accordion-body text-secondary">
-                 Yes. Ridewell serves both individual and corporate clients. Whether you need a private chauffeur, a personal driver for your household, or a fleet of drivers for your organization, we have solutions tailored to your needs.
+                 We accept multiple payment options — bank transfer, online payment, or corporate invoice arrangements for registered clients. Payment terms and details are shared at the time of booking or onboarding.
                 </div>
               </div>
             </div>
