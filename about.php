@@ -63,7 +63,7 @@
                             <div class="col-12">
                                 <div class="d-flex">
                                     <div class="me-3 text-primary fs-3">
-                                        <i class="bi bi-headset"></i>
+                                        <i class="bi bi-file-earmark-text-fill"></i>
                                     </div>
                                     <div>
                                         <h5 class="fw-semibold mb-1">Simple & Fast Booking</h5>
@@ -78,7 +78,7 @@
                             <div class="col-12">
                                 <div class="d-flex">
                                     <div class="me-3 text-primary fs-3">
-                                        <i class="bi bi-file-earmark-text-fill"></i>
+                                        <i class="bi bi-headset"></i>
                                     </div>
                                     <div>
                                         <h5 class="fw-semibold mb-1">
@@ -108,11 +108,11 @@
     <section class="core-bg pt-5 mt-5">
         <div class="container hi">
             <div class="d-flex gap-3 justify-content-center align-items-center discdidiover">
-                <div class="me-3 text-white fs-3">
+                <div class=" text-white fs-3">
                     <i class="bi bi-car-front-fill"></i>
                 </div>
                 <h3 class="text-white">OUR CORE VALUES</h3>
-                <div class="me-3 text-white fs-3">
+                <div class=" text-white fs-3">
                     <i class="bi bi-car-front-fill"></i>
                 </div>
             </div>
