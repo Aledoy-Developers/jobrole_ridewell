@@ -37,7 +37,8 @@ function get_pricing($service_type, $duration, $period, $location) {
 }
 
 function admin_email() {
-    return 'emmanueligbinazaka3@gmail.com';
+    return 'info@ridewellng.com';
+    // return 'emmanueligbinazaka3@gmail.com';
 }
 
 function site_name() {

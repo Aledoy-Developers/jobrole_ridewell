@@ -19,9 +19,9 @@ if (mysqli_num_rows($result) == 0) {
 $booking = mysqli_fetch_assoc($result);
 
 // Example price list
-$price = get_pricing($booking['service_type'], $booking['duration'], $booking['period'], $booking['state']);
+$amount = $price = get_pricing($booking['service_type'], $booking['duration'], $booking['period'], $booking['state']);
 
-
+$amount = 1000; // take this out after live testing...
 
 ?>
 <!DOCTYPE html>
@@ -102,10 +102,10 @@ $price = get_pricing($booking['service_type'], $booking['duration'], $booking['p
     <script>
     function payWithPaystack() {
         let handler = PaystackPop.setup({
-            key: 'pk_test_59e6e667d3990cda6c6a6849eb0c8c303cc333fd', // Aledoy Test your public key
+            key: 'pk_test_afe3423a48f0c46371660820295e130728029bbd', // Aledoy Test your public key
             // key: 'pk_test_59e6e667d3990cda6c6a6849eb0c8c303cc333fd', //Live Key
             email: '<?= $booking['email'] ?>',
-            amount: <?= $price ?> * 100, // Amount in kobo (₦5000)
+            amount: <?= $amount ?> * 100, // Amount in kobo (₦5000)
             currency: 'NGN',
             ref: 'REF' + Math.floor((Math.random() * 1000000000) + 1), // Unique reference
             callback: function(response) {
