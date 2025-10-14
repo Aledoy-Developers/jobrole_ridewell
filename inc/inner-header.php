@@ -108,23 +108,24 @@
 
     <div class="top-bar py-2">
         <div class="container">
-            <div class="d-flex flex-wrap justify-content-between align-items-center">
-                <div class="d-flex flex-wrap align-items-center gap-5">
-                    <div>
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-left">
+                
+                <div class="d-flex flex-column flex-sm-row align-items-start gap-2 gap-md-5">
+                    <div class="mb-1 mb-sm-0">
                         <i class="bi bi-envelope-fill"></i>
                         Info@ridewellng.com
                     </div>
-                    <div>
+                    <div class="mb-1 mb-sm-0">
                         <i class="bi bi-telephone-fill"></i>
                         07025001539, 08036764455
                     </div>
-                    <div>
+                    <div class="text-center text-sm-start">
                         <i class="bi bi-geo-alt-fill"></i>
                         3rd Floor Wing A, AVM Complex, Ologolo Lekki Lagos.
                     </div>
                 </div>
 
-                <div class="social-icons d-flex align-items-center">
+                <div class="social-icons d-flex align-items-center mt-2 mt-md-0">
                     <a href="#"><i class="fa fa-facebook-f"></i></a>
                     <a href="#"><i class="fa fa-whatsapp"></i></a>
                     <a href="#"><i class="bi bi-linkedin"></i></a>

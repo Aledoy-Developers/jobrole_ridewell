@@ -23,7 +23,7 @@ require_once('inc/fns.php');
 
     <?php include('inc/header.php'); ?>
 
-    <section class="pt-5 mt-5">
+    <section class="pt-5 mt-5 home-abt">
         <div class="container">
             <div class="row">
                 <div class="col-md-5 d-flex justify-content-center align-items-center">
@@ -132,13 +132,14 @@ require_once('inc/fns.php');
             </div>
 
             <div class="row top">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="image-card">
                         <img src="images/service1.png" alt="Service Description" /> 
                         
                         <div class="image-overlay">
                             <h4>Personal Drivers</h4>
-                            <p>Our personal drivers handle your daily commuting, errands, and family transportation needs, ensuring you have a reliable, screened professional dedicated to your schedule.</p>
+                            <p>Our personal drivers are screened drivers for commuting, errands, and reliable family transportation.
+                            </p>
                             <div class="mt-3 button">
                                 <a href="book-a-driver">
                                     <button>Book Now</button>
@@ -147,13 +148,13 @@ require_once('inc/fns.php');
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="image-card">
                         <img src="images/service2.png" class="img-fluid" /> 
                         
                         <div class="image-overlay">
                             <h4>Executive Drivers</h4>
-                            <p>Designed for corporate leaders, high-net-worth individuals, and frequent travelers, our executive drivers offer a superior level of service marked by utmost discretion and expert route knowledge.</p>
+                            <p>Executive drivers offer superior discretion and expert knowledge for high-net-worth clients.</p>
                             <div class="mt-3 button">
                                 <a href="book-a-driver">
                                     <button>Book Now</button>
@@ -162,7 +163,7 @@ require_once('inc/fns.php');
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="image-card">
                         <img src="images/service3.png" class="img-fluid" /> 
                         
@@ -177,13 +178,13 @@ require_once('inc/fns.php');
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="image-card">
                         <img src="images/service4.png" class="img-fluid" /> 
                         
                         <div class="image-overlay">
                             <h4>Spy Police Drivers</h4>
-                            <p>For clients requiring enhanced security, our Spy Police Drivers are trained professionals, often with a background in security services.</p>
+                            <p>For clients requiring enhanced security, our Spy Police Drivers are trained professionals.</p>
                             <div class="mt-3 button">
                                 <a href="book-a-driver">
                                     <button>Book Now</button>
@@ -192,41 +193,41 @@ require_once('inc/fns.php');
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <!-- <div class="col-md-4">
                     <div class="image-card">
                         <img src="images/service5.png" alt="Service Description" /> 
                         
                         <div class="image-overlay">
-                            <!-- <h4>Corporate Chauffeurs</h4>
+                            <h4>Corporate Chauffeurs</h4>
                             <p>Our corporate chauffeurs are polished, punctual, and professionally trained in executive etiquette.</p>
                             <div class="mt-3 button">
                                 <a href="book-a-driver">
                                     <button>Book Now</button>
                                 </a>
-                            </div> -->
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
+                </div> -->
+                <!-- <div class="col-md-4">
                     <div class="image-card">
                         <img src="images/service6.png" alt="Service Description" /> 
                         
                         <div class="image-overlay">
-                            <!-- <h4>Corporate Chauffeurs</h4>
+                            <h4>Corporate Chauffeurs</h4>
                             <p>Our corporate chauffeurs are polished, punctual, and professionally trained in executive etiquette.</p>
                             <div class="mt-3 button">
                                 <a href="book-a-driver">
                                     <button>Book Now</button>
                                 </a>
-                            </div> -->
+                            </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
 
-    <section class="pt-5 mt-5">
+    <section class="pt-5 mt-5 home-abt_">
         <div class="container">
             <div class="row">
                 <div class="col-md-7">
@@ -380,7 +381,6 @@ require_once('inc/fns.php');
                                     </div>
                                     <div class="pic_nav-id">
                                         Saheed <br />
-                                        <!-- <span>Manger</span> -->
                                     </div>
                                 </div>
                                 <p>
@@ -392,11 +392,10 @@ require_once('inc/fns.php');
                             <div class="pic">
                                 <div class="pic_nav">
                                     <div class="pic_nav-img">
-                                        <img src="images/Ellipse9.png" class="img-fluid" />
+                                        <img src="images/Ellipse10.png" class="img-fluid" />
                                     </div>
                                     <div class="pic_nav-id">
                                         Chinedu<br />
-                                        <!-- <span>Manger</span> -->
                                     </div>
                                 </div>
                                 <p>
@@ -413,7 +412,6 @@ require_once('inc/fns.php');
                                     </div>
                                     <div class="pic_nav-id">
                                         Adaobi<br />
-                                        <span>Manger</span>
                                     </div>
                                 </div>
                                 <p>
@@ -430,7 +428,6 @@ require_once('inc/fns.php');
                                     </div>
                                     <div class="pic_nav-id">
                                         Tunde<br />
-                                        <span>Manger</span>
                                     </div>
                                 </div>
                                 <p>
@@ -446,7 +443,6 @@ require_once('inc/fns.php');
                                     </div>
                                     <div class="pic_nav-id">
                                         John<br />
-                                        <span>Manger</span>
                                     </div>
                                 </div>
                                 <p>
@@ -666,7 +662,7 @@ require_once('inc/fns.php');
         </div>
     </section> -->
 
-    <section class="pt-5 mt-5">
+    <!-- <section class="pt-5 mt-5">
         <div class="container trust-bg">
             <div class="trust-head">TRUSTED BY PARTNERS</div>
             <div class="trust-car">
@@ -688,7 +684,7 @@ require_once('inc/fns.php');
                 </marquee>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <?php include 'inc/footer.php'; ?>
 </body>

@@ -120,22 +120,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 "<a href='".hosturl()."/".$target_file."'>Download attachment</a><br>";
 
             // ✅ Modern PHPMailer usage
-    $mail = new PHPMailer(true);
+   $mail = new PHPMailer(true);
 
     // SMTP Settings
-    $mail->IsSMTP();    
-    $mail->Port = 465;
-    $mail->SMTPAuth = true;               
-    //sendgrid
-     $mail->Username='aledoysolutions231@gmail.com';
-    $mail->Password = 'jhah axwo ykxl pbmx';  //yahoo app password for noreply email 
-    $mail->Host='smtp.gmail.com';
-    $mail->SMTPSecure = 'ssl'; 
-    $mail->From = 'aledoysolutions231@gmail.com';
-    $mail->FromName = "RIDEWELL NG";
+    // $mail->IsSMTP();    
+    // $mail->Port = 465;
+    // $mail->SMTPAuth = true;               
+    // //sendgrid
+    //  $mail->Username='aledoysolutions231@gmail.com';
+    // $mail->Password = 'jhah axwo ykxl pbmx';
+    // $mail->Host='smtp.gmail.com';
+    // $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; 
+    // $mail->From = 'aledoysolutions231@gmail.com';
+    // $mail->FromName = "RIDEWELL NG";
 
     // Email Headers
-    $mail->setFrom('aledoysolutions231@gmail.com', 'RideWell NG');
+    $mail->setFrom('notification@ridewellng.com', 'RideWellNG');
     $mail->addAddress("$to");
 
     // Content

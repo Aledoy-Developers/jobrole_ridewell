@@ -1,20 +1,37 @@
 .top-bar {
   background-color: #0a3d91; /* dark blue */
   color: #fff;
-  font-size: 14px;
+  font-size: 14px; /* Default size for larger screens */
+  /* Add padding/margin to social block when needed */
+  padding-bottom: 5px; /* Adjust vertical spacing for appearance */
 }
 
+/* Base styles for links */
 .top-bar a {
   color: #fff;
   text-decoration: none;
-  margin-left: 5px;
+  /* Removed margin-left: 5px; from text links to prevent overlap in mobile stacking */
 }
 
+/* Base styles for social icons */
 .top-bar .social-icons a {
-  margin-left: 12px;
+  margin-left: 12px; /* Spacing between icons */
   font-size: 16px;
 }
 
+/* ------------------------------------------- */
+/* MOBILE SPECIFIC ADJUSTMENTS (< 576px) */
+/* ------------------------------------------- */
+@media (max-width: 575.98px) {
+  .top-bar {
+    font-size: 12px;
+  }
+
+  /* Reduce spacing between social icons on mobile */
+  .top-bar .social-icons a {
+    margin-left: 8px;
+  }
+}
 .navbar-brand img {
   height: 80px; /* Adjust logo size */
 }
@@ -190,6 +207,10 @@
 
 .join-team-content {
   padding-block: 109px;
+}
+
+.join-team-content h3 {
+  text-align: center;
 }
 
 .testimonials .testimonials-text h3 {
@@ -563,6 +584,10 @@
 }
 
 .footer-custom {
+  background-color: rgb(248, 248, 248) !important;
+}
+
+.footer-custom {
   /* Set the background color to match your likely corporate color */
   background-color: white;
   color: black; /* Ensure all default text is white */
@@ -746,80 +771,133 @@
   margin-left: 10px;
 }
 
-
 /* Define colors */
 :root {
-    --overlay-color: rgba(0, 58, 141, 0.85); /* Semi-transparent blue */
-    --text-color: white;
-    --transition-speed: 0.3s;
+  --overlay-color: rgba(0, 58, 141, 0.85); /* Semi-transparent blue */
+  --text-color: white;
+  --transition-speed: 0.3s;
 }
 
 /* ------------------------------------------- */
 /* 1. CONTAINER SETUP */
 /* ------------------------------------------- */
 .image-card {
-    /* Set position relative for absolute positioning of the overlay */
-    position: relative;
-    /* Determines the size of your card (adjust these values) */
-    /* width: 440px;
+  /* Set position relative for absolute positioning of the overlay */
+  position: relative;
+  /* Determines the size of your card (adjust these values) */
+  /* width: 440px;
     height: 385px;  */
-    overflow: hidden; /* Ensures nothing spills out of the card boundaries */
-    border-radius: 8px; 
-    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); */
-    cursor: pointer;
+  overflow: hidden; /* Ensures nothing spills out of the card boundaries */
+  border-radius: 8px;
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); */
+  cursor: pointer;
 }
 
 /* Make the image fill the container and look good */
 .image-card img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-    transition: transform var(--transition-speed) ease;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform var(--transition-speed) ease;
 }
 
 /* ------------------------------------------- */
 /* 2. OVERLAY AND TEXT SETUP (Default Hidden) */
 /* ------------------------------------------- */
 .image-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #00000099;
-    color: white;
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    /* Key CSS to hide the overlay by default: */
-    opacity: 0; /* Starts completely transparent */
-    transform: translateY(100%); /* Starts off-screen (from the bottom) */
-    transition: opacity var(--transition-speed) ease, transform var(--transition-speed) ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00000099;
+  color: white;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* Key CSS to hide the overlay by default: */
+  opacity: 0; /* Starts completely transparent */
+  transform: translateY(100%); /* Starts off-screen (from the bottom) */
+  transition: opacity var(--transition-speed) ease,
+    transform var(--transition-speed) ease;
 }
 
 .image-overlay h4 {
-    margin-bottom: 5px;
-    font-size: 1.2rem;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
 }
 
 .image-overlay p {
-    font-size: 0.9rem;
-    margin: 0;
+  font-size: 0.9rem;
+  margin: 0;
 }
 
 /* ------------------------------------------- */
 /* 3. HOVER STATE (Reveals Overlay) */
 /* ------------------------------------------- */
 .image-card:hover .image-overlay {
-    opacity: 1; /* Make it visible */
-    transform: translateY(0); /* Move it to its final position */
+  opacity: 1; /* Make it visible */
+  transform: translateY(0); /* Move it to its final position */
 }
 
 .image-card:hover img {
-    /* Optional: slight zoom/scale effect on the image when hovered */
+  /* Optional: slight zoom/scale effect on the image when hovered */
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .top-bar {
+    display: none;
+  }
+
+  .home-abt img {
+    display: none;
+  }
+
+  .home-abt_ img {
+    margin-top: 25px;
+  }
+
+  .image-card .image-overlay {
+    opacity: 1;
+    transform: translateY(0);
+    transition: none;
+
+    /* 2. REDUCE PADDING FOR MOBILE */
+    padding: 20px; /* Reduced padding for more space for content */
+  }
+
+  .image-card {
+    margin-top: 6px;
+  }
+
+  /* Optional: Reduce font size for better fit */
+  .image-overlay h4 {
+    font-size: 1rem;
+  }
+
+  .image-overlay p {
+    font-size: 0.8rem;
+  }
+
+  /* Apply the slight zoom/scale effect to the image as well */
+  .image-card img {
     transform: scale(1.05);
+  }
+
+  .join-team-content h3 {
+    text-align: left;
+  }
+
+  .join-team-content p {
+    text-align: left;
+  }
+
+  .button button {
+    margin-top: 1.5rem !important;
+  }
 }

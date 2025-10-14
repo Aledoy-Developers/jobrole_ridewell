@@ -23,7 +23,7 @@
 
     <?php include('inc/inner-header.php'); ?>
 
-    <section class="">
+    <section class="home-abt">
       <div class="container">
         <div class="row">
           <div class="col-md-5 d-flex justify-content-center align-items-center">

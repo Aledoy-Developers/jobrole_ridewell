@@ -21,7 +21,7 @@
 
     <?php include('inc/single-header.php'); ?>
 
-    <section class="">
+    <section class="home-abt">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 d-flex align-items-center">
