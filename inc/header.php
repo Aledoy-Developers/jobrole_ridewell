@@ -316,10 +316,10 @@
             </div>
 
             <div class="container">
-                <div class="banner-text text-white">
+                <div class="banner-text">
                     <h2>
                         Your No 1 Trusted Partner for <br />
-                        Professional Drivers...
+                        Professional Drivers
                     </h2>
                 </div>
 

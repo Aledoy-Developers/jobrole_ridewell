@@ -138,11 +138,10 @@ require_once('inc/fns.php');
                         
                         <div class="image-overlay">
                             <h4>Personal Drivers</h4>
-                            <p>Our personal drivers are screened drivers for commuting, errands, and reliable family transportation.
-                            </p>
+                            <p>Ideal for individuals and families who need a reliable driver...</p>
                             <div class="mt-3 button">
-                                <a href="book-a-driver">
-                                    <button>Book Now</button>
+                                <a href="personal-driver?cat=Drivers">
+                                    <button>Read More</button>
                                 </a>
                             </div>
                         </div>
@@ -154,25 +153,10 @@ require_once('inc/fns.php');
                         
                         <div class="image-overlay">
                             <h4>Executive Drivers</h4>
-                            <p>Executive drivers offer superior discretion and expert knowledge for high-net-worth clients.</p>
+                            <p>Designed for business leaders, top professionals, and high-profile...</p>
                             <div class="mt-3 button">
-                                <a href="book-a-driver">
-                                    <button>Book Now</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="image-card">
-                        <img src="images/service3.png" class="img-fluid" /> 
-                        
-                        <div class="image-overlay">
-                            <h4>Corporate Drivers</h4>
-                            <p>We provide reliable, full-time drivers for companies needing support for their fleet or management staff.</p>
-                            <div class="mt-3 button">
-                                <a href="book-a-driver">
-                                    <button>Book Now</button>
+                                <a href="executive-drivers?cat=Drivers">
+                                    <button>Read More</button>
                                 </a>
                             </div>
                         </div>
@@ -183,11 +167,26 @@ require_once('inc/fns.php');
                         <img src="images/service4.png" class="img-fluid" /> 
                         
                         <div class="image-overlay">
-                            <h4>Spy Police Drivers</h4>
-                            <p>For clients requiring enhanced security, our Spy Police Drivers are trained professionals.</p>
+                            <h4>Corporate Drivers</h4>
+                            <p>Tailored for organizations that need dependable drivers for staff...</p>
                             <div class="mt-3 button">
-                                <a href="book-a-driver">
-                                    <button>Book Now</button>
+                                <a href="corporate-drivers?cat=Drivers">
+                                    <button>Read More</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="image-card">
+                        <img src="images/service3.png" class="img-fluid" /> 
+                        
+                        <div class="image-overlay">
+                            <h4>Spy Police Drivers</h4>
+                            <p>For clients who require an added layer of security and protection...</p>
+                            <div class="mt-3 button">
+                                <a href="spy-police-driver?cat=Drivers">
+                                    <button>Read More</button>
                                 </a>
                             </div>
                         </div>

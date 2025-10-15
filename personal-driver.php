@@ -25,7 +25,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-5 d-flex justify-content-center align-items-center">
-                    <img src="images/Rectangle8.jpg" class="img-fluid" />
+                    <img src="images/Rectangle 8.jpg" class="img-fluid" />
                 </div>
                 <div class="col-md-7">
                     <div class="container hi">
@@ -109,7 +109,7 @@
 
                             <div class="mt-5 button">
                                 <a href="book-a-driver?type=Personal Driver">
-                                    <button>Book personal chaufferus now</button>
+                                    <button>Book personal chauffeurs now</button>
                                 </a>
                             </div>
                         </div>

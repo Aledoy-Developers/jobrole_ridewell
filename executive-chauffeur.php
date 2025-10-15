@@ -116,7 +116,7 @@
           </div>
 
           <div class="col-md-5 d-flex justify-content-center align-items-center">
-            <img src="images/Rectangle62e.jpg" class="img-fluid" />
+            <img src="images/Rectangle62e.png" class="img-fluid" />
           </div>
         </div>
       </div>

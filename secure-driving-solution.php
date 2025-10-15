@@ -129,7 +129,7 @@
     <div class="row g-0">
         
         <div class="col-12 col-lg-6">
-            <img src="images/Secure-driving2.jpg" class="img-fluid h-100 object-fit-cover" alt="Business man checking phone near a white luxury car">
+            <img src="images/Coperate-driver2.jpg" class="img-fluid h-100 object-fit-cover" alt="Business man checking phone near a white luxury car">
         </div>
 
         <div class="col-12 col-lg-6 p-5 p-md-5" style="background-color: #003a8d; color: white;">

@@ -27,7 +27,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-5 d-flex justify-content-center align-items-center">
-            <img src="images/Secure-driving1.jpg" class="img-fluid" />
+            <img src="images/spyp-dr2.png" class="img-fluid" />
           </div>
           <div class="col-md-7">
             <div class="container hi">
