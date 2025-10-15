@@ -102,8 +102,8 @@ $amount = 1000; // take this out after live testing...
     <script>
     function payWithPaystack() {
         let handler = PaystackPop.setup({
-            key: 'pk_test_afe3423a48f0c46371660820295e130728029bbd', // Aledoy Test your public key
-            // key: 'pk_test_59e6e667d3990cda6c6a6849eb0c8c303cc333fd', //Live Key
+            // key: 'pk_test_afe3423a48f0c46371660820295e130728029bbd', // Jobrole Test your public key
+            key: 'pk_live_09914a9ba5e76f04a0baaa5db1b4a45958af48f9', //Live Key
             email: '<?= $booking['email'] ?>',
             amount: <?= $amount ?> * 100, // Amount in kobo (₦5000)
             currency: 'NGN',
