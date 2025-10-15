@@ -25,14 +25,13 @@
 
     <section class="">
       <div class="container hi mb-5">
-        <h3>JOIN OUR TEAM OF PROFESSIONAL DRIVERS <span><i class="bi bi-car-front-fill"></i></span></h3>
-        <h2>Be Part Of A Trusted Network Delivering Reliable Driving Services.</h2>
+        <h3>BECOME A DRIVER <span><i class="bi bi-car-front-fill"></i></span></h3>
+        <h2>Join our team of professional drivers</h2>
       </div>
     </section>
     <form action="proc_vacancy" method="post" enctype="multipart/form-data" class="container">
-      <h4>Driver's Information</h4>
       <div class="row">
-        <h2 class="mb-4">Send Us a Message</h2>
+        <label class="mb-4">Enter you information to get started with us</label>
 
         <?php if ($msg == 'success') { ?>
           <div class="alert alert-success"><?= $comment ?></div>

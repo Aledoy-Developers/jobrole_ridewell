@@ -45,7 +45,7 @@ if($_GET['type'])
 
     <form action="proc_bookdriver" method="post" class="container">
         <div class="row">
-            <h2 class="mb-4">Send Us a Message</h2>
+            <label class="mb-5">Fill the form below to get a quote</label>
             <?php if ($msg == 'success') {  ?>
             <div class="alert alert-success">Driver Booked</div>
             <?php } ?>
