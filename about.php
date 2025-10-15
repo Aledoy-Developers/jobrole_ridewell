@@ -29,7 +29,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="container hi">
-                        <h3>ABOUT RIDEWELL GLOBAL SERVICES<span><i class="bi bi-car-front-fill me-3"></i></span></h3>
+                        <h3>ABOUT RIDEWELL GLOBAL SERVICES <span><i class="bi bi-car-front-fill me-3"></i></span></h3>
                         <h2>Connecting You with Reliable, Professional Drivers Anytime, Anywhere.</h2>
 
                         <p class="my-4">
