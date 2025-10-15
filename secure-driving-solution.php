@@ -44,7 +44,7 @@
                   <div class="col-12">
                     <div class="d-flex">
                       <div class="me-3 text-primary fs-3">
-                        <i class="bi bi-car-front-fill"></i>
+                        <i class="bi bi-check"></i>
                       </div>
                       <div>
                         <h5 class="fw-semibold mb-1">
@@ -57,7 +57,7 @@
                   <div class="col-12">
                     <div class="d-flex">
                       <div class="me-3 text-primary fs-3">
-                        <i class="bi bi-file-earmark-text-fill"></i>
+                        <i class="bi-check"></i>
                       </div>
                       <div>
                         <h5 class="fw-semibold mb-1">
@@ -70,7 +70,7 @@
                   <div class="col-12">
                     <div class="d-flex">
                       <div class="me-3 text-primary fs-3">
-                        <i class="bi bi-headset"></i>
+                        <i class="bi bi-check"></i>
                       </div>
                       <div>
                         <h5 class="fw-semibold mb-1">
@@ -83,7 +83,7 @@
                   <div class="col-12">
                     <div class="d-flex">
                       <div class="me-3 text-primary fs-3">
-                        <i class="bi bi-headset"></i>
+                        <i class="bi bi-check"></i>
                       </div>
                       <div>
                         <h5 class="fw-semibold mb-1">
@@ -96,7 +96,7 @@
                   <div class="col-12">
                     <div class="d-flex">
                       <div class="me-3 text-primary fs-3">
-                        <i class="bi bi-headset"></i>
+                        <i class="bi bi-check"></i>
                       </div>
                       <div>
                         <h5 class="fw-semibold mb-1">
@@ -117,7 +117,7 @@
           </div>
 
           <div class="col-md-5 d-flex justify-content-center align-items-center">
-            <img src="images/Secure-driving1.jpg" class="img-fluid" />
+            <img src="images/Rectangle8.jpg" class="img-fluid" />
           </div>
         </div>
       </div>

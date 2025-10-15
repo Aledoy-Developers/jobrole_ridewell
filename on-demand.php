@@ -47,7 +47,7 @@
                                 <div class="col-6">
                                     <div class="d-flex">
                                         <div class="me-3 text-primary fs-3">
-                                            <i class="bi bi-car-front-fill"></i>
+                                            <i class="bi bi-check"></i>
                                         </div>
                                         <div>
                                             <h5 class="fw-semibold mb-1">
@@ -63,7 +63,7 @@
                                 <div class="col-6">
                                     <div class="d-flex">
                                         <div class="me-3 text-primary fs-3">
-                                            <i class="bi bi-file-earmark-text-fill"></i>
+                                            <i class="bi bi-check"></i>
                                         </div>
                                         <div>
                                             <h5 class="fw-semibold mb-1">
@@ -79,7 +79,7 @@
                                 <div class="col-6">
                                     <div class="d-flex">
                                         <div class="me-3 text-primary fs-3">
-                                            <i class="bi bi-file-earmark-text-fill"></i>
+                                            <i class="bi bi-check"></i>
                                         </div>
                                         <div>
                                             <h5 class="fw-semibold mb-1">
@@ -95,7 +95,7 @@
                                 <div class="col-6">
                                     <div class="d-flex">
                                         <div class="me-3 text-primary fs-3">
-                                            <i class="bi bi-headset"></i>
+                                            <i class="bi bi-check"></i>
                                         </div>
                                         <div>
                                             <h5 class="fw-semibold mb-1">On-Time Guarantee</h5>
@@ -243,84 +243,71 @@
 
                             <!-- Item 2 -->
                             <div class="accordion-item shadow-sm border-0 mb-3 rounded-3">
-                                <h2 class="accordion-header">
-                                    <button
-                                        class="accordion-button collapsed fw-bold text-dark d-flex align-items-center no-arrow"
-                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                        aria-expanded="false" aria-controls="collapseTwo">
-                                        <span class="toggle-icon me-2">+</span>
-                                        Can I request multiple chauffeurs for a large event?
-                                    </button>
-                                </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse"
-                                    data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body text-secondary">
-                                        Yes, all our chauffeurs undergo rigorous training in professional conduct,
-                                        discretion, and customer service standards.
-                                    </div>
-                                </div>
-                            </div>
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold text-dark d-flex align-items-center no-arrow"
+                  type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                  aria-controls="collapseTwo">
+                  <span class="toggle-icon me-2">+</span>
+                  Can I request multiple chauffeurs for a large event?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-secondary">
+                  Absolutely. For corporate events, weddings, or conferences, Ridewell can provide multiple chauffeurs to manage your transportation needs seamlessly. Our operations team ensures timely coordination, uniformed drivers, and professional service for every guest.
+                </div>
+              </div>
+            </div>
 
-                            <!-- Item 3 -->
-                            <div class="accordion-item shadow-sm border-0 mb-3 rounded-3">
-                                <h2 class="accordion-header">
-                                    <button
-                                        class="accordion-button collapsed fw-bold text-dark d-flex align-items-center no-arrow"
-                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                        aria-expanded="false" aria-controls="collapseThree">
-                                        <span class="toggle-icon me-2">+</span>
-                                        Are your chauffeurs professionally trained?
-                                    </button>
-                                </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse"
-                                    data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body text-secondary">
-                                        While we can't guarantee a specific individual, we will do our best to
-                                        accommodate requests based on availability and scheduling.
-                                    </div>
-                                </div>
-                            </div>
+            <!-- Item 3 -->
+            <div class="accordion-item shadow-sm border-0 mb-3 rounded-3">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold text-dark d-flex align-items-center no-arrow"
+                  type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                  aria-controls="collapseThree">
+                  <span class="toggle-icon me-2">+</span>
+                  Are your chauffeurs professionally trained?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-secondary">
+                  Yes. All Ridewell chauffeurs are carefully vetted and professionally trained. They undergo background checks, defensive driving training, and customer service orientation to ensure safety, reliability, and exceptional service at all times.
+                </div>
+              </div>
+            </div>
 
-                            <!-- Item 4 -->
-                            <div class="accordion-item shadow-sm border-0 mb-3 rounded-3">
-                                <h2 class="accordion-header">
-                                    <button
-                                        class="accordion-button collapsed fw-bold text-dark d-flex align-items-center no-arrow"
-                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                        aria-expanded="false" aria-controls="collapseFour">
-                                        <span class="toggle-icon me-2">+</span>
-                                        What vehicles are available for corporate chauffeur services?
-                                    </button>
-                                </h2>
-                                <div id="collapseFour" class="accordion-collapse collapse"
-                                    data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body text-secondary">
-                                        Amenities like Wi-Fi and bottled water are standard in most of our
-                                        executive-class vehicles, though availability may vary by service level.
-                                    </div>
-                                </div>
-                            </div>
+            <!-- Item 4 -->
+            <div class="accordion-item shadow-sm border-0 mb-3 rounded-3">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold text-dark d-flex align-items-center no-arrow"
+                  type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                  aria-controls="collapseFour">
+                  <span class="toggle-icon me-2">+</span>
+                  What vehicles are available for corporate chauffeur services?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-secondary">
+                  We provide a range of vehicles depending on your requirements — including executive sedans, SUVs, luxury vehicles, and company-assigned cars. We also work with corporate clients who prefer using their own vehicles while we provide the professional drivers.
+                </div>
+              </div>
+            </div>
 
-                            <!-- Item 5 -->
-                            <div class="accordion-item shadow-sm border-0 mb-3 rounded-3">
-                                <h2 class="accordion-header">
-                                    <button
-                                        class="accordion-button collapsed fw-bold text-dark d-flex align-items-center no-arrow"
-                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive"
-                                        aria-expanded="false" aria-controls="collapseFive">
-                                        <span class="toggle-icon me-2">+</span>
-                                        Are your chauffeurs professionally trained?
-                                    </button>
-                                </h2>
-                                <div id="collapseFive" class="accordion-collapse collapse"
-                                    data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body text-secondary">
-                                        Our vetting process includes extensive background checks, driving record
-                                        verification, and professional interviews to ensure the highest safety
-                                        standards.
-                                    </div>
-                                </div>
-                            </div>
+            <!-- Item 5 -->
+            <div class="accordion-item shadow-sm border-0 mb-3 rounded-3">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold text-dark d-flex align-items-center no-arrow"
+                  type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
+                  aria-controls="collapseFive">
+                  <span class="toggle-icon me-2">+</span>
+                  How soon can I get a driver after booking?
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-secondary">
+                  You can get a driver as quickly as within an hour, depending on your location and driver availability. For planned engagements, we recommend booking at least 24 hours in advance to guarantee availability and smooth coordination.
+                </div>
+              </div>
+            </div>
 
                         </div>
                     </div>

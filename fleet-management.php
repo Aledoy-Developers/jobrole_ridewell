@@ -27,93 +27,93 @@
       <div class="container">
         <div class="row">
           <div class="col-md-7">
-            <div class="container hi">
-              <div class="card shadow-sm border-0 rounded-4 p-md-5 bg-white">
-                <h6 class="text-uppercase mb-2">
-                  Fleet Management <span><i class="bi bi-car-front-fill"></i></span>
-                </h6>
-                <h2 class="mb-4">
-                    Optimizing your fleet for safety, efficiency, and cost savings.
-                </h2>
+    <div class="container hi">
+        <div class="card shadow-sm border-0 rounded-4 p-md-5 bg-white">
+            <h6 class="text-uppercase mb-2">
+                Fleet Management <span><i class="bi bi-car-front-fill"></i></span>
+            </h6>
+            <h2 class="mb-4">
+                Optimizing your fleet for safety, efficiency, and cost savings.
+            </h2>
 
-                <p class="text-muted mb-5">
-                    Need a driver at short notice? Ridewell offers flexible, on-demand driver deployment for individuals, families, and organizations. Whether for a few hours, a day, or a longer period, our drivers are available whenever you need them..
-                </p>
+            <p class="text-muted mb-5">
+                Effective fleet management goes beyond just driving. We provide your organization with the tools and insights needed to centralize vehicle data, manage maintenance schedules, track assets in real-time, and ensure driver compliance. Minimize downtime and maximize ROI across your entire vehicle pool.
+            </p>
 
-                <div class="row gy-4">
-                  <div class="col-12">
+            <div class="row gy-4">
+                <div class="col-12">
                     <div class="d-flex">
-                      <div class="me-3 text-primary fs-3">
-                        <i class="bi bi-car-front-fill"></i>
-                      </div>
-                      <div>
-                        <h5 class="fw-semibold mb-1">
-                          Improve Efficiency
-                        </h5>
-                        <p>
-                            Track, monitor, and optimize vehicle use to cut down fuel and maintenance costs.
-                        </p>
-                      </div>
+                        <div class="me-3 text-primary fs-3">
+                            <i class="bi bi-check"></i>
+                        </div>
+                        <div>
+                            <h5 class="fw-semibold mb-1">
+                                Improve Efficiency
+                            </h5>
+                            <p>
+                                Track, monitor, and optimize vehicle use to cut down fuel and maintenance costs.
+                            </p>
+                        </div>
                     </div>
-                  </div>
-
-                  <div class="col-12">
-                    <div class="d-flex">
-                      <div class="me-3 text-primary fs-3">
-                        <i class="bi bi-file-earmark-text-fill"></i>
-                      </div>
-                      <div>
-                        <h5 class="fw-semibold mb-1">
-                          Enhance Safety
-                        </h5>
-                        <p>
-                            Ensure driver compliance, reduce risks, and maintain safer journeys.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-12">
-                    <div class="d-flex">
-                      <div class="me-3 text-primary fs-3">
-                        <i class="bi bi-headset"></i>
-                      </div>
-                      <div>
-                        <h5 class="fw-semibold mb-1">
-                            Boost Productivity:
-                        </h5>
-                        <p>
-                            Minimize downtime through timely vehicle servicing and route optimization.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-12">
-                    <div class="d-flex">
-                      <div class="me-3 text-primary fs-3">
-                        <i class="bi bi-headset"></i>
-                      </div>
-                      <div>
-                        <h5 class="fw-semibold mb-1">
-                            Gain Insights
-                        </h5>
-                        <p>
-                            Access real-time data and reports to make informed decisions that drive growth.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
                 </div>
 
-                <div class="mt-5 button">
-                  <a href="book-a-driver">
-                    <button>Book fleet Management now</button>
-                  </a>
+                <div class="col-12">
+                          <div class="d-flex">
+                              <div class="me-3 text-primary fs-3">
+                                  <i class="bi bi-check"></i>
+                              </div>
+                              <div>
+                                  <h5 class="fw-semibold mb-1">
+                                      Enhance Safety
+                                  </h5>
+                                  <p>
+                                      Ensure driver compliance, reduce risks, and maintain safer journeys.
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-12">
+                          <div class="d-flex">
+                              <div class="me-3 text-primary fs-3">
+                                  <i class="bi bi-check"></i>
+                              </div>
+                              <div>
+                                  <h5 class="fw-semibold mb-1">
+                                      Boost Productivity:
+                                  </h5>
+                                  <p>
+                                      Minimize downtime through timely vehicle servicing and route optimization.
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-12">
+                          <div class="d-flex">
+                              <div class="me-3 text-primary fs-3">
+                                  <i class="bi bi-check"></i>
+                              </div>
+                              <div>
+                                  <h5 class="fw-semibold mb-1">
+                                      Gain Insights
+                                  </h5>
+                                  <p>
+                                      Access real-time data and reports to make informed decisions that drive growth.
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="mt-5 button">
+                      <a href="fleet-management-contact">
+                          <button>Inquire About Fleet Management</button>
+                      </a>
+                  </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
 
           <div class="col-md-5 d-flex justify-content-center align-items-center">
             <img src="images/Fleetmanagement1.jpg" class="img-fluid" />

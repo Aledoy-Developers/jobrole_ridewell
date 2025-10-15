@@ -116,11 +116,11 @@ require_once('inc/fns.php');
     <section class="hero-bg mt-5 pt-5">
         <div class="container pb-5">
             <div class="d-flex gap-3 justify-content-center align-items-center discdidiover">
-                <div class="me-3 text-primary fs-3">
+                <div class="text-primary fs-3">
                     <i class="bi bi-car-front-fill"></i>
                 </div>
                 <h3>DISCOVER OUR SERVICES</h3>
-                <div class="me-3 text-primary fs-3">
+                <div class=" text-primary fs-3">
                     <i class="bi bi-car-front-fill"></i>
                 </div>
             </div>
@@ -368,7 +368,7 @@ require_once('inc/fns.php');
         <div class="container">
             <div class="row">
                 <div class="col-md-4 hi">
-                    <h3>TESTIMONIAL <span> <i class="bi bi-car-front-fill"></i> </span></h3>
+                    <h3>TESTIMONIAL <span><i class="bi bi-car-front-fill"></i></span></h3>
                     <h2>Trusted by Clients Across the City</h2>
                 </div>
                 <div class="col-md-8">
@@ -380,7 +380,7 @@ require_once('inc/fns.php');
                                         <img src="images/Ellipse8.png" class="img-fluid" />
                                     </div>
                                     <div class="pic_nav-id">
-                                        Saheed <br />
+                                        Saheed from Ikeja <br />
                                     </div>
                                 </div>
                                 <p>
@@ -395,7 +395,7 @@ require_once('inc/fns.php');
                                         <img src="images/Ellipse10.png" class="img-fluid" />
                                     </div>
                                     <div class="pic_nav-id">
-                                        Chinedu<br />
+                                        Chinedu from Mushin<br />
                                     </div>
                                 </div>
                                 <p>
