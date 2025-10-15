@@ -113,7 +113,7 @@ if($_GET['type'])
             </div>
 
             <div class="col-md-6 d-flex flex-column my-2">
-                <label>Service duration</label>
+                <label>Service duration (e.g: 3 hours or days)</label>
                 <!-- <input type="text" class="form5 mt-2" placeholder="NAme"> -->
                 <div class="row">
                     <div class="col-md-6 d-flex flex-column">
@@ -141,22 +141,27 @@ if($_GET['type'])
             <div class="col-md-6 d-flex flex-column my-2">
                 <label>How did you hear about us?</label>
                 <select name="aboutus" class="form5 mt-2">
-                    <option value="" disabled <?php if (empty($aboutus)) echo 'selected'; ?>>Please select one option</option>
-                    
+                    <option value="" disabled <?php if (empty($aboutus)) echo 'selected'; ?>>Please select one option
+                    </option>
+
                     <option value="google" <?php if ($aboutus == "google") echo 'selected'; ?>>Google Search</option>
-                    
-                    <option value="social" <?php if ($aboutus == "social") echo 'selected'; ?>>Social Media (Facebook, Instagram, LinkedIn, etc.)</option>
-                    
-                    <option value="friend" <?php if ($aboutus == "friend") echo 'selected'; ?>>Friend/Family Referral</option>
-                    
-                    <option value="advert" <?php if ($aboutus == "advert") echo 'selected'; ?>>Online Advertisement</option>
-                    
+
+                    <option value="social" <?php if ($aboutus == "social") echo 'selected'; ?>>Social Media (Facebook,
+                        Instagram, LinkedIn, etc.)</option>
+
+                    <option value="friend" <?php if ($aboutus == "friend") echo 'selected'; ?>>Friend/Family Referral
+                    </option>
+
+                    <option value="advert" <?php if ($aboutus == "advert") echo 'selected'; ?>>Online Advertisement
+                    </option>
+
                     <option value="radio" <?php if ($aboutus == "radio") echo 'selected'; ?>>Radio/Print Media</option>
-                    
-                    <option value="event" <?php if ($aboutus == "event") echo 'selected'; ?>>Industry Event/Trade Show</option>
-                    
+
+                    <option value="event" <?php if ($aboutus == "event") echo 'selected'; ?>>Industry Event/Trade Show
+                    </option>
+
                     <option value="other" <?php if ($aboutus == "other") echo 'selected'; ?>>Other</option>
-                    
+
                 </select>
             </div>
 
@@ -173,7 +178,8 @@ if($_GET['type'])
                     <input class="form-check-input" type="checkbox" name="agree" id="agree" value="yes">
                     <label class="form-check-label" for="agree">
                         By clicking this box, I confirm that I have read, understood, and agree to be bound by the
-                        <strong><a href="terms.php" target="blank_"class="text-decoration-none text-dark">Terms & Condition</a></strong> and
+                        <strong><a href="terms.php" target="blank_" class="text-decoration-none text-dark">Terms &
+                                Condition</a></strong> and
                         Privacy Policy of this service
                     </label>
                 </div>
