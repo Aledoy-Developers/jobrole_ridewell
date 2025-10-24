@@ -256,10 +256,9 @@ require_once('inc/fns.php');
                                             <i class="bi bi-check"></i>
                                         </div>
                                         <div>
-                                            <h5 class="fw-semibold mb-1">Verified and trained drivers.</h5>
+                                            <h5 class="fw-semibold mb-1">On-Demand & Flexible Service</h5>
                                             <p class="text-muted mb-0">
-                                                All chauffeurs and drivers undergo background checks
-                                                and training. Clients must wear seatbelts at all times
+                                                Book a driver at short notice or in advance—our system ensures quick response and seamless coordination.
                                             </p>
                                         </div>
                                     </div>
@@ -272,11 +271,10 @@ require_once('inc/fns.php');
                                         </div>
                                         <div>
                                             <h5 class="fw-semibold mb-1">
-                                                Premium customer service.
+                                                Verified & Trained Drivers
                                             </h5>
                                             <p class="text-muted mb-0">
-                                                Ridewell chauffeurs/drivers are trained to maintain
-                                                professionalism and discretion.
+                                               Every driver undergoes background checks and professional training for safety, courtesy, and discretion.
                                             </p>
                                         </div>
                                     </div>
@@ -289,11 +287,10 @@ require_once('inc/fns.php');
                                         </div>
                                         <div>
                                             <h5 class="fw-semibold mb-1">
-                                                Flexible, on-demand solutions.
+                                                Safety & Confidentiality First
                                             </h5>
                                             <p class="text-muted mb-0">
-                                                Refunds, where applicable, will be processed within
-                                                5–7 business days to the original payment method.
+                                                Your peace of mind is our top priority. All rides are secure, and passenger seatbelt compliance is mandatory.
                                             </p>
                                         </div>
                                     </div>
@@ -305,10 +302,9 @@ require_once('inc/fns.php');
                                             <i class="bi bi-check"></i>
                                         </div>
                                         <div>
-                                            <h5 class="fw-semibold mb-1">Strong focus on safety and confidentiality.</h5>
+                                            <h5 class="fw-semibold mb-1">Premium Customer Experience</h5>
                                             <p class="text-muted mb-0">
-                                                We respond quickly to your requests, keeping you
-                                                updated from booking to driver assignment.
+                                                Our chauffeurs maintain high standards of professionalism and service etiquette at all times.
                                             </p>
                                         </div>
                                     </div>
@@ -319,10 +315,9 @@ require_once('inc/fns.php');
                                             <i class="bi bi-check"></i>
                                         </div>
                                         <div>
-                                            <h5 class="fw-semibold mb-1">Scalable services for individuals and businesses.</h5>
+                                            <h5 class="fw-semibold mb-1">For Individuals & Businesses</h5>
                                             <p class="text-muted mb-0">
-                                                We respond quickly to your requests, keeping you
-                                                updated from booking to driver assignment.
+                                                From executives to families and organizations, Ridewell provides scalable driver solutions for every need.
                                             </p>
                                         </div>
                                     </div>
